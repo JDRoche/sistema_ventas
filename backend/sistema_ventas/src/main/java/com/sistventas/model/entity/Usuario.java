@@ -1,4 +1,4 @@
-package com.sistventas.datos.entidades;
+package com.sistventas.model.entity;
 
 import java.time.LocalDate;
 
