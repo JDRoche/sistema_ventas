@@ -1,5 +1,9 @@
 package com.sistventas.model.dao;
 
-public interface IClienteDao {
+import org.springframework.data.repository.CrudRepository;
+
+import com.sistventas.model.entity.Cliente;
+
+public interface IClienteDao extends CrudRepository<Cliente, Long>{
 
 }
